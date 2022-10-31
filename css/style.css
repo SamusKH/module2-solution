@@ -81,4 +81,8 @@ h1.Sushi{
 }
 
 /************** Mobile version **************/
-@media (max-width:767px)
+@media (max-width:767px){
+	.txt{
+		width: 90%;
+	}
+}
