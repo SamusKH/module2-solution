@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0px;
+
+}
+
+header{
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: Brush Script MT, Brush Script Std;
+}
+
+
+
+div.txt {
+	position: relative;
+	bottom: 0px;
+	background-color: gray;
+	padding: 10px;
+	padding-top: 45px;
+	padding-bottom: 20px;
+	margin: 10px;
+	border: 1px solid black;
+	font-family: Snell Roundhand, cursive;
+}
+
+h1{
+	font-size: 20px;
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 30%;
+	padding: 1px;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0px;
+	font-family: Impact, fantasy;
+}
+h1.Chicken{
+	background-color: pink;
+}
+h1.Beef{
+	background-color: red;
+}
+h1.Sushi{
+	background-color: yellow;
+}
+
+
+
+/************** Desktop version **************/
+@media (min-width:992px){
+	.col-lg-4{
+		float: left;
+		width: 33.33%;
+	}
+
+}
+/************** Tablet version **************/
+@media (min-width:768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		width: 50%;
+
+	}
+	.col-md-12{
+		width: 100%;
+	}
+	h1{
+		width: 45%;
+	}
+	.Sushi{
+		width: 20%;
+	}
+
+	}
+}
+
+/************** Mobile version **************/
+@media (max-width:767px)
